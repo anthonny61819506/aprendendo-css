@@ -1,11 +1,27 @@
-body{
-    background-color: cornflowerblue;
-    color: crimson;
-    font-family: 'cursive';
-    text-align: center;
-    margin: 100px 10px 10px 10px;
-    
+* {
+    background: rgb(182, 182, 182);
+}
 
+h1 {
+    margin: 100px 100px 100px 100px;
+    padding: 50px;
+    color: black;
+    background-color: azure;
+    border: 5px solid blue;
+    border-radius: 50px 100px;
+    text-align: center;
+    width: 500px;
+    margin: 0 auto;
+}
+
+div{width: 1000px;
+    text-align: center;
+
+}
+
+#content{
+    
+    color: chartreuse;
 
 
 }
