@@ -8,10 +8,10 @@ h1 {
     color: black;
     background-color: azure;
     border: 5px solid blue;
-    border-radius: 50px 100px;
+    border-radius: 100px;
     text-align: center;
     width: 500px;
-    margin: 0 auto;
+    margin: auto;
 }
 
 div{width: 1000px;
@@ -23,5 +23,36 @@ div{width: 1000px;
     
     color: chartreuse;
 
+
+}
+#area-login{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 10PX;
+    margin: auto;
+    border: 2px solid black;
+    padding: 50px;
+    border-radius: 50px;
+}
+button{
+    margin-top: 20px;
+    background-color: crimson;
+    color: magenta;
+    padding: 10px;
+    border-radius: 50px;   
+}
+#usuario{
+    background-color: aqua;
+}
+input[type="email"]{
+    background-color: darkorchid;
+}
+
+button:hover{
+    background-color: chartreuse;
+    color: white;
+    border: solid 2px black;
+    font-size: 25px;
 
 }
